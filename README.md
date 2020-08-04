@@ -2,7 +2,7 @@
 Sentiment Analysis via Bag-of-Words and Word2Vec
 
 ### About the Data 
-You have been supplied with several thousand single-sentence reviews, collected from three domains: imdb.com, amazon.com, and yelp.com. Each review consists of a sentence, and has been assigned a binary label indicating the sentiment (1 for positive and 0 for negative) of that sentence. Your goal is to develop binary classiers that can generate the sentiment-labels for new sentences, automating the assessment process.<br>
+You have been supplied with several thousand single-sentence reviews, collected from three domains: imdb.com, amazon.com, and yelp.com. Each review consists of a sentence, and has been assigned a binary label indicating the sentiment (1 for positive and 0 for negative) of that sentence. Your goal is to develop binary classifiers that can generate the sentiment-labels for new sentences, automating the assessment process.<br>
 The provided data consists of 2400 training examples. There are also 600 testing inputs, for which no y-values are given.
 
 ## Part One: Classifying Review Sentiment with Bag-of-Words Features
