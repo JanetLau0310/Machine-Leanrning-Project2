@@ -36,7 +36,7 @@ It is clear to choose the CountVectorizer and TfidfVectorizer methods to build t
 
 ## Part Two: Classifying Review Sentiment with Word Embeddings
 ### Introduction
-We have provided a file containing pre-trained embedding vectors for 400,000 possible vocabulary words from GloVe. Each line of that file consists of a word, followed by a 50-value embedding vector for it. <br>
+We have provided a file containing pre-trained embedding vectors for 400,000 possible vocabulary words from GloVe. Each line consists of a word, followed by a 50-value embedding vector for it. <br>
 **Problem in this part is that word2vec only represent the vectors of words, not for the sentences. In order to do the sentiment analysis we need to know the feature vectors of every sentences.**<br>
 There are some ways to gain the sentence embedding:<br>
 - Count the avg of words' vectors in a sentence.
