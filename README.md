@@ -4,6 +4,7 @@ Sentiment Analysis via Bag-of-Words and Word2Vec
 ### About the Data 
 You have been supplied with several thousand single-sentence reviews, collected from three domains: imdb.com, amazon.com, and yelp.com. Each review consists of a sentence, and has been assigned a binary label indicating the sentiment (1 for positive and 0 for negative) of that sentence. Your goal is to develop binary classifiers that can generate the sentiment-labels for new sentences, automating the assessment process.<br>
 The provided data consists of 2400 training examples. There are also 600 testing inputs, for which no y-values are given.
+### For more pre-processing details and explanations please check the .ipnb files.
 
 ## Part One: Classifying Review Sentiment with Bag-of-Words Features
 ### Introducion
@@ -30,9 +31,6 @@ In TfidfVectorizer part:
 _Some justification for why you made the decisions you did._
 
 It is clear to choose the CountVectorizer and TfidfVectorizer methods to build the feature vector. Both of them consider the frequency in the data set, and especially, tf-idf consider the different weight of different words.
-
-
-
 
 ## Part Two: Classifying Review Sentiment with Word Embeddings
 ### Introduction
