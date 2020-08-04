@@ -1,6 +1,10 @@
 # Machine-Leanrning-Project2
 Sentiment Analysis via Bag-of-Words and Word2Vec
 
+### About the Data 
+You have been supplied with several thousand single-sentence reviews, collected from three domains: imdb.com, amazon.com, and yelp.com. Each review consists of a sentence, and has been assigned a binary label indicating the sentiment (1 for positive and 0 for negative) of that sentence. Your goal is to develop binary classiers that can generate the sentiment-labels for new sentences, automating the assessment process.<br>
+The provided data consists of 2400 training examples. There are also 600 testing inputs, for which no y-values are given.
+
 ## Part One: Classifying Review Sentiment with Bag-of-Words Features
 ### Introducion
 In this part the basic idea is to construct the Bag-of-Words Features for every review sentence in the training and testing data set. 
@@ -30,23 +34,9 @@ It is clear to choose the CountVectorizer and TfidfVectorizer methods to build t
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Part Two: Classifying Review Sentiment with Word Embeddings
 ### Introduction
-In this part, we have the pre-train data by Slove, which have 50 feature dimension vector for 99998 words.<br>
+We have provided a file containing pre-trained embedding vectors for 400,000 possible vocabulary words from GloVe. Each line of that file consists of a word, followed by a 50-value embedding vector for it. <br>
 **Problem in this part is that word2vec only represent the vectors of words, not for the sentences. In order to do the sentiment analysis we need to know the feature vectors of every sentences.**<br>
 There are some ways to gain the sentence embedding:<br>
 - Count the avg of words' vectors in a sentence.
